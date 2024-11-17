@@ -72,7 +72,7 @@ int main() {
   scanf("%o", &chosenNumber2);
   chosenNumber1 += chosenNumber2;
   printf("The sum in hexadecimal: %X\n", chosenNumber1);
-  //Print each required bit individually
+  //Prints the bits at positions 3, 5, 7, and 11
   printf("The 3,5,7,11 bits are: %d%d%d%d", (chosenNumber1 >> 3)& 1, (chosenNumber1 >> 5)& 1, (chosenNumber1 >> 7)& 1, (chosenNumber1 >> 11)& 1);
 
   printf("Bye!\n");
