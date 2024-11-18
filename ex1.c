@@ -16,7 +16,7 @@ int main() {
   /*Scan two integers (representing number and a position)
   Print the bit in this position. */
   printf("Please enter a number:\n");
-  scanf("%o", &chosenNumber1);
+  scanf("%d", &chosenNumber1);
   printf("Please enter a position:\n");
   scanf("%d", &chosenPosition);
   /*Move the bit in the chosen position to the LSB position.
