@@ -21,7 +21,7 @@ int main() {
   scanf("%d", &chosenPosition);
   /*Move the bit in the chosen position to the LSB position.
   &1's output depends on the new LSB's value.*/
-  printf("The bit in position of %d of number %d is: %d\n", chosenPosition, chosenNumber1, (chosenNumber1 >> chosenPosition) & 1);
+  printf("The bit in position %d of number %d is: %d\n", chosenPosition, chosenNumber1, (chosenNumber1 >> chosenPosition) & 1);
   
   // Set bit
   printf("\nSet bit:\n");
