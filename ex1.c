@@ -1,6 +1,6 @@
 /******************
 Name: Itai Avis
-ID: 212170849
+ID:
 Assignment: 1
 *******************/
 #include <stdio.h>
